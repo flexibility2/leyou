@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="786e62dc-48f0-4919-817e-e8a431d698eb" name="Default Changelist" comment="" />
+    <list default="true" id="786e62dc-48f0-4919-817e-e8a431d698eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/leyou/config/LeyouCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/ItemServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +38,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,6 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1cM9rDFG2RH7rowM0B5LYcuS3sj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,13 +67,55 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/item/service/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\JAVA\springmaster\leyou\item\service\src\main\resources" />
+      <recent name="G:\JAVA\springmaster\leyou\gateway\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ItemServiceApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.RegistryApplication" />
@@ -53,6 +123,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ItemServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19057377" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,37 +159,74 @@
       <updated>1590327791105</updated>
       <workItem from="1590327794068" duration="2625000" />
       <workItem from="1590330635706" duration="2896000" />
-      <workItem from="1590333564775" duration="670000" />
+      <workItem from="1590333564775" duration="919000" />
+      <workItem from="1590419917951" duration="2711000" />
+      <workItem from="1590455520831" duration="1394000" />
+      <workItem from="1590499517239" duration="945000" />
+      <workItem from="1590583488214" duration="6559000" />
+      <workItem from="1590717883230" duration="2022000" />
+      <workItem from="1590942270800" duration="881000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="128" key="GridCell.Tab.0.bottom" timestamp="1590333654038">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1590595309816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590333654038" />
-    <state width="1493" height="128" key="GridCell.Tab.0.center" timestamp="1590333654038">
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1590595309816" />
+    <state x="361" y="74" key="#SQL_Dialects" timestamp="1590590818559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590333654038" />
-    <state width="1493" height="128" key="GridCell.Tab.0.left" timestamp="1590333654038">
+    <state x="361" y="74" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1590590818559" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1590588353034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590333654038" />
-    <state width="1493" height="128" key="GridCell.Tab.0.right" timestamp="1590333654038">
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590588353034" />
+    <state width="887" height="236" key="GridCell.Tab.0.bottom" timestamp="1590722112294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="128" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590333654038" />
-    <state x="272" y="57" key="SettingsEditor" timestamp="1590333993380">
+    <state width="887" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590722112294" />
+    <state width="887" height="236" key="GridCell.Tab.0.center" timestamp="1590722112294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590333993380" />
-    <state x="178" y="117" key="new project wizard" timestamp="1590333672805">
+    <state width="887" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590722112294" />
+    <state width="887" height="236" key="GridCell.Tab.0.left" timestamp="1590722112294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590333672805" />
+    <state width="887" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590722112294" />
+    <state width="887" height="236" key="GridCell.Tab.0.right" timestamp="1590722112294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="887" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590722112294" />
+    <state width="887" height="236" key="GridCell.Tab.1.bottom" timestamp="1590722112295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="887" height="236" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590722112295" />
+    <state width="887" height="236" key="GridCell.Tab.1.center" timestamp="1590722112294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="887" height="236" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590722112294" />
+    <state width="887" height="236" key="GridCell.Tab.1.left" timestamp="1590722112294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="887" height="236" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590722112294" />
+    <state width="887" height="236" key="GridCell.Tab.1.right" timestamp="1590722112294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="887" height="236" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590722112294" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1590420472112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590420472112" />
+    <state x="282" y="100" key="new project wizard" timestamp="1590499860791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="282" y="100" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590499860791" />
   </component>
 </project>
