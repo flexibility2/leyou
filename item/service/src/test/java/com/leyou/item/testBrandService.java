@@ -18,6 +18,15 @@ public class testBrandService {
     {
         PageResult<Brand>result = brandService.queryBrandsByPage(null,1,5,null,null);
         System.out.println(result);
+//        String
+    }
+
+    @Test
+    public void mytest()
+    {
+        String s = "aa";
+        String ss = s.substring(2);
+        System.out.println(ss);
     }
 
 }

@@ -11,6 +11,7 @@ public interface BrandMapper {
 
     List<Brand>selectLikeByName(@Param("name") String name);
     List<Brand>selectAll();
+    Brand selectByid(@Param("id") Long id);
 
     int insertBrandAndCategory(@Param("cid") Long cid,@Param("bid") Long bid);
 

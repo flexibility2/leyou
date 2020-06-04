@@ -12,4 +12,6 @@ public interface CategoryMapper {
 
     List<Category>selectByPid(@Param("parentId") long pid);
 
+    List<Category>selectById(List<Long>ids);
+
 }

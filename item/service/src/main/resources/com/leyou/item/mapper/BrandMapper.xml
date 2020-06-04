@@ -11,6 +11,12 @@
 
     </select>
 
+    <select id="selectByid" resultType="com.leyou.item.domain.Brand">
+
+        select * from tb_brand where id = #{id}
+
+    </select>
+
     <select id="selectAll" resultType="com.leyou.item.domain.Brand">
 
     select * from tb_brand

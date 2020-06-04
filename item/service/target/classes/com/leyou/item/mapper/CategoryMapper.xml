@@ -11,6 +11,15 @@
 
     </select>
 
+    <select id="selectById" resultType="com.leyou.item.domain.Category">
+
+        select * from tb_category where id in 
+        <foreach collection="list" index="index" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+
+    </select>
+
 
 
 </mapper>
