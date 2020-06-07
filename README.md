@@ -17,12 +17,18 @@
 - 阿里大于，微信SDK，实现短信通知，微信支付等
 - Nginx实现域名和ip地址端口的映射，并缓存Thymeleaf静态页面
 ## 架构图
+![image](https://github.com/flexibility2/leyou/blob/master/image/lysc.png)
 ## 系统架构解读
 整个项目可以分为两部分：后台管理系统、前台门户系统。
 - 后台管理，toB, 主要为商品的管理：
   - 商品分类
+  ![image](https://github.com/flexibility2/leyou/blob/master/image/%E5%95%86%E5%93%81%E5%88%86%E7%B1%BB.png)
   - 品牌管理
+  ![image](https://github.com/flexibility2/leyou/blob/master/image/%E5%93%81%E7%89%8C%E7%AE%A1%E7%90%86.png)
   - 商品列表
+  ![image](https://github.com/flexibility2/leyou/blob/master/image/%E5%95%86%E5%93%81%E5%88%97%E8%A1%A8.png)
   - 商品新增
+  ![image](https://github.com/flexibility2/leyou/blob/master/image/%E5%95%86%E5%93%81%E6%96%B0%E5%A2%9E.png)
   - 规格参数
+  ![image](https://github.com/flexibility2/leyou/blob/master/image/%E8%A7%84%E6%A0%BC%E5%8F%82%E6%95%B0.png)
 - 前台门户：toC, 实现用户注册登录，搜索过滤商品，加入购物车，下单等功能
