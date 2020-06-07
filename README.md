@@ -32,3 +32,5 @@
   - 规格参数
   ![image](https://github.com/flexibility2/leyou/blob/master/image/%E8%A7%84%E6%A0%BC%E5%8F%82%E6%95%B0.png)
 - 前台门户：toC, 实现用户注册登录，搜索过滤商品，加入购物车，下单等功能
+  ![image](https://github.com/flexibility2/leyou/blob/master/image/%E5%89%8D%E5%8F%B0.png)
+
