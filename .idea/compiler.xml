@@ -12,12 +12,14 @@
         <module name="registry" />
         <module name="upload" />
         <module name="service" />
+        <module name="elasticsearch" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="elasticsearch" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="interface" options="-parameters" />
       <module name="item" options="" />

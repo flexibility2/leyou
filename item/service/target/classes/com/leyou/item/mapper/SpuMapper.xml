@@ -11,4 +11,17 @@
 
     </select>
 
+    <insert id="insertSelective" parameterType="com.leyou.item.bo.SpuBo">
+
+        <selectKey keyProperty="id" keyColumn="id" resultType="Long">
+            select last_insert_id();
+        </selectKey>
+
+        insert into tb_spu (title,sub_title,cid1,cid2,cid3,brand_id,saleable,valid,create_time,last_update_time) values
+        (#{title},#{subTitle},#{cid1},#{cid2},#{cid3},#{brandId},#{saleable},#{valid},#{createTime},#{lastUpdateTime})
+
+
+
+    </insert>
+
 </mapper>

@@ -11,4 +11,8 @@ public interface SpecParamMapper {
 
     List<SpecParam>selectALlByGid(@Param("gid") Long gid);
 
+    List<SpecParam> selectALlByAll(Long gid, Long cid, Boolean generic, Boolean searching);
+
+//    List<SpecParam>selectALlByAll()
+
 }

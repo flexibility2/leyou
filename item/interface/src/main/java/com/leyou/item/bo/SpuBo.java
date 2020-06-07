@@ -1,6 +1,10 @@
 package com.leyou.item.bo;
 
+import com.leyou.item.domain.Sku;
 import com.leyou.item.domain.Spu;
+import com.leyou.item.domain.SpuDetail;
+
+import java.util.List;
 
 public class SpuBo extends Spu {
 
@@ -8,12 +12,16 @@ public class SpuBo extends Spu {
 
     String bname;
 
+    SpuDetail spuDetail;
+    List<Sku>skus;
 
     @Override
     public String toString() {
         return "SpuBo{" +
                 "cname='" + cname + '\'' +
                 ", bname='" + bname + '\'' +
+                ", spuDetail=" + spuDetail +
+                ", skus=" + skus +
                 '}';
     }
 
@@ -31,5 +39,21 @@ public class SpuBo extends Spu {
 
     public void setBname(String bname) {
         this.bname = bname;
+    }
+
+    public SpuDetail getSpuDetail() {
+        return spuDetail;
+    }
+
+    public void setSpuDetail(SpuDetail spuDetail) {
+        this.spuDetail = spuDetail;
+    }
+
+    public List<Sku> getSkus() {
+        return skus;
+    }
+
+    public void setSkus(List<Sku> skus) {
+        this.skus = skus;
     }
 }

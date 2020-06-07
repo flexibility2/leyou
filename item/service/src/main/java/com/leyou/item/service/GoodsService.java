@@ -5,15 +5,19 @@ import com.github.pagehelper.PageInfo;
 import com.leyou.common.domain.PageResult;
 import com.leyou.item.bo.SpuBo;
 import com.leyou.item.domain.Spu;
+import com.leyou.item.domain.SpuDetail;
 import com.leyou.item.mapper.BrandMapper;
+import com.leyou.item.mapper.SpuDetailMapper;
 import com.leyou.item.mapper.SpuMapper;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -27,6 +31,9 @@ public class GoodsService {
 
     @Autowired
     private BrandMapper brandMapper;
+
+    @Autowired
+    private SpuDetailMapper spuDetailMapper;
 
 
     public PageResult<SpuBo>querySpuBoByPage(String key, Boolean saleable, Integer page, Integer rows)
@@ -50,6 +57,29 @@ public class GoodsService {
                 }
         );
         return new PageResult<>(pageInfo.getTotal(),spuBos);
+
+    }
+
+    @Transactional
+    public void saveGoods(SpuBo spuBo)
+    {
+        spuBo.setSaleable(true);
+        spuBo.setValid(true);
+        spuBo.setCreateTime(new Date());
+        spuBo.setLastUpdateTime(spuBo.getCreateTime());
+        int cnt = this.spuMapper.insertSelective(spuBo);
+
+        SpuDetail spuDetail = spuBo.getSpuDetail();
+
+        spuDetail.setSpuId(spuBo.getId());
+        this.spuDetailMapper.insertSpuDetails(spuDetail);
+
+//        saveSkuAndStock();
+
+    }
+
+    private void saveSkuAndStock()
+    {
 
     }
 

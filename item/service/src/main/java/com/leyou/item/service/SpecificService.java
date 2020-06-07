@@ -29,4 +29,9 @@ public class SpecificService {
         return specParamMapper.selectALlByGid(gid);
     }
 
+    public List<SpecParam>querySpecParamByGid(Long gid,Long cid,Boolean generic,Boolean searching)
+    {
+        return specParamMapper.selectALlByAll(gid,cid,generic,searching);
+    }
+
 }

@@ -40,6 +40,20 @@ public class BrandController {
         return ResponseEntity.status(HttpStatus.CREATED).build();
 //        return ResponseEntity.notFound().build();
     }
+
+
+    @GetMapping("cid/{cid}")
+    public ResponseEntity<List<Brand>>queryBrandByCid(@PathVariable("cid")Long cid)
+    {
+
+        List<Brand>brands  = brandService.queryBrandsByCid(cid);
+        if (CollectionUtils.isEmpty(brands))
+        {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(brands);
+
+    }
 }
 
 

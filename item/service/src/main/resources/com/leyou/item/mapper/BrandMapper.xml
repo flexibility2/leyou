@@ -11,6 +11,13 @@
 
     </select>
 
+    <select id="queryBrandsBycid" resultType="com.leyou.item.domain.Brand">
+
+        select * from tb_brand join tb_category_brand on tb_category_brand.brand_id = tb_brand.id
+        where tb_category_brand.category_id = #{cid}
+
+    </select>
+
     <select id="selectByid" resultType="com.leyou.item.domain.Brand">
 
         select * from tb_brand where id = #{id}

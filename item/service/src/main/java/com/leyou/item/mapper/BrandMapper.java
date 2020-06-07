@@ -17,4 +17,6 @@ public interface BrandMapper {
 
     int insertBrandById(Brand brand);
 
+    List<Brand>queryBrandsBycid(Long cid);
+
 }

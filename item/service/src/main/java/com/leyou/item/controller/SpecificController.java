@@ -30,9 +30,13 @@ public class SpecificController {
 
 
     @GetMapping("params")
-    public ResponseEntity<List<SpecParam>>querySpecParamByGid(@RequestParam("gid")Long gid)
+    public ResponseEntity<List<SpecParam>>querySpecParamByGid(@RequestParam(value = "gid",required = false)Long gid,
+                                                              @RequestParam(value = "cid", required = false)Long cid,
+                                                              @RequestParam(value = "generic", required = false)Boolean generic,
+                                                              @RequestParam(value = "searching", required = false)Boolean searching)
     {
-        List<SpecParam>specParams = specificService.querySpecParamByGid(gid);
+//        List<SpecParam>specParams = specificService.querySpecParamByGid(gid);
+        List<SpecParam>specParams = specificService.querySpecParamByGid(gid,cid,generic,searching);
         if (CollectionUtils.isEmpty(specParams))
         {
             return ResponseEntity.notFound().build();

@@ -2,45 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786e62dc-48f0-4919-817e-e8a431d698eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/bo/SpuBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/domain/SpecGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/domain/SpecParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/domain/Spu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/domain/SpuDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/SpecificController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpecGroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpecParamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/SpecificService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpecGroupMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpecParamMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item/service/src/test/java/com/leyou/item/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.log.2020-06-03.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/src/main/java/com/wxt/UploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/src/main/java/com/wxt/config/LeyouCorsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/src/main/java/com/wxt/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/src/main/java/com/wxt/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/src/test/java/com/wxt/serviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/wxt/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/wxt/domain/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/test/java/com/wxt/indexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/domain/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/domain/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpuDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpuDetailMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/bo/SpuBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/interface/src/main/java/com/leyou/item/bo/SpuBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/interface/target/classes/com/leyou/item/bo/SpuBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/interface/target/classes/com/leyou/item/bo/SpuBo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/SpecificController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/controller/SpecificController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpecParamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpecParamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/mapper/SpuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/SpecificService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/SpecificService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item/service/src/test/java/com/leyou/item/testBrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/test/java/com/leyou/item/testBrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item/service/target/test-classes/com/leyou/item/testBrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/test-classes/com/leyou/item/testBrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpecParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpecParamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper/SpuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/controller/SpecificController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/controller/SpecificController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/BrandMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpecParamMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpecParamMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpecParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpecParamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/mapper/SpuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/service/BrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/service/SpecificService.class" beforeDir="false" afterPath="$PROJECT_DIR$/item/service/target/classes/com/leyou/item/service/SpecificService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/upload/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +98,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/upload/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/item/service/src/main/resources/com/leyou/item/mapper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\JAVA\springmaster\leyou\item\service\src\main\resources\com\leyou\item\mapper" />
       <recent name="G:\JAVA\springmaster\leyou\upload\src\main\resources" />
       <recent name="G:\JAVA\springmaster\leyou\item\service\src\main\resources" />
       <recent name="G:\JAVA\springmaster\leyou\gateway\src\main\resources" />
@@ -115,7 +122,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UploadApplication">
+  <component name="RunManager" selected="JUnit.indexTest.test1">
+    <configuration name="indexTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxt" />
+      <option name="MAIN_CLASS_NAME" value="com.wxt.indexTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test1.mytest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service" />
       <extension name="coverage">
@@ -148,18 +171,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testBrandService.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.item.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leyou.item" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.item.testBrandService" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxt.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.indexTest.test1" />
         <item itemvalue="Spring Boot.ItemServiceApplication" />
         <item itemvalue="Spring Boot.UploadApplication" />
         <item itemvalue="JUnit.test1.mytest" />
         <item itemvalue="JUnit.testBrandService.mytest" />
-        <item itemvalue="JUnit.testBrandService.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +232,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.19057377" />
+          <option name="contentProportion" value="0.32496512" />
           <treeState>
             <expand>
               <path>
@@ -228,7 +242,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -263,7 +277,9 @@
       <workItem from="1590942270800" duration="3249000" />
       <workItem from="1590991346994" duration="11018000" />
       <workItem from="1591064234695" duration="26046000" />
-      <workItem from="1591240568884" duration="10318000" />
+      <workItem from="1591240568884" duration="23722000" />
+      <workItem from="1591440225835" duration="7511000" />
+      <workItem from="1591447768512" duration="7733000" />
     </task>
     <servers />
   </component>
@@ -274,6 +290,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Auto_Import" timestamp="1591445049993">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1591445049993" />
     <state x="361" y="74" key="#Project_Structure" timestamp="1590595309816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,57 +306,105 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591253052264" />
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1591253484097">
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1591505274844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591253484097" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591505274844" />
+    <state x="553" y="279" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591444095350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="279" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1591444095350" />
     <state x="366" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591249134313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="366" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1591249134313" />
-    <state width="1184" height="226" key="GridCell.Tab.0.bottom" timestamp="1591256097896">
+    <state width="608" height="362" key="GridCell.Tab.0.bottom" timestamp="1591460947827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591256097896" />
-    <state width="1184" height="226" key="GridCell.Tab.0.center" timestamp="1591256097896">
+    <state width="608" height="362" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591460947827" />
+    <state width="608" height="362" key="GridCell.Tab.0.center" timestamp="1591460947826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591256097896" />
-    <state width="1184" height="226" key="GridCell.Tab.0.left" timestamp="1591256097895">
+    <state width="608" height="362" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591460947826" />
+    <state width="608" height="362" key="GridCell.Tab.0.left" timestamp="1591460947826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591256097895" />
-    <state width="1184" height="226" key="GridCell.Tab.0.right" timestamp="1591256097896">
+    <state width="608" height="362" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591460947826" />
+    <state width="608" height="362" key="GridCell.Tab.0.right" timestamp="1591460947827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591256097896" />
-    <state width="1184" height="226" key="GridCell.Tab.1.bottom" timestamp="1591256097896">
+    <state width="608" height="362" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591460947827" />
+    <state width="608" height="362" key="GridCell.Tab.1.bottom" timestamp="1591460947827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591256097896" />
-    <state width="1184" height="226" key="GridCell.Tab.1.center" timestamp="1591256097896">
+    <state width="608" height="362" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591460947827" />
+    <state width="608" height="362" key="GridCell.Tab.1.center" timestamp="1591460947827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591256097896" />
-    <state width="1184" height="226" key="GridCell.Tab.1.left" timestamp="1591256097896">
+    <state width="608" height="362" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591460947827" />
+    <state width="608" height="362" key="GridCell.Tab.1.left" timestamp="1591460947827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591256097896" />
-    <state width="1184" height="226" key="GridCell.Tab.1.right" timestamp="1591256097896">
+    <state width="608" height="362" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591460947827" />
+    <state width="608" height="362" key="GridCell.Tab.1.right" timestamp="1591460947827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1184" height="226" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591256097896" />
+    <state width="608" height="362" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591460947827" />
+    <state width="1243" height="311" key="GridCell.Tab.2.bottom" timestamp="1591447553650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1243" height="311" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591447553650" />
+    <state width="1243" height="311" key="GridCell.Tab.2.center" timestamp="1591447553650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1243" height="311" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591447553650" />
+    <state width="1243" height="311" key="GridCell.Tab.2.left" timestamp="1591447553650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1243" height="311" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591447553650" />
+    <state width="1243" height="311" key="GridCell.Tab.2.right" timestamp="1591447553650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1243" height="311" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591447553650" />
     <state x="272" y="57" key="SettingsEditor" timestamp="1590420472112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590420472112" />
-    <state x="282" y="100" key="new project wizard" timestamp="1591156000977">
+    <state x="323" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591446858112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="282" y="100" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591156000977" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591150626488">
+    <state x="323" y="151" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1591446858112" />
+    <state x="492" y="124" width="621" height="490" key="find.popup" timestamp="1591505622460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591150626488" />
+    <state x="492" y="124" width="621" height="490" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1591505622460" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1591460362546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1591460362546" />
+    <state x="282" y="100" key="new project wizard" timestamp="1591457332716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="282" y="100" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591457332716" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591505344071">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591505344071" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/GoodsService.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/item/service/src/main/java/com/leyou/item/service/GoodsService.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
