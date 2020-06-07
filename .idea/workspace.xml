@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="786e62dc-48f0-4919-817e-e8a431d698eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/lysc.png" afterDir="false" />
-    </list>
+    <list default="true" id="786e62dc-48f0-4919-817e-e8a431d698eb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +199,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -238,7 +236,7 @@
       <workItem from="1591064234695" duration="26046000" />
       <workItem from="1591240568884" duration="23722000" />
       <workItem from="1591440225835" duration="7511000" />
-      <workItem from="1591447768512" duration="7733000" />
+      <workItem from="1591447768512" duration="8449000" />
     </task>
     <servers />
   </component>
